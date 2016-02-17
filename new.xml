@@ -12,8 +12,18 @@
               </block>
             </value>
             <value name="B">
-              <block type="math_number" id="91">
-                <field name="NUM">50</field>
+              <block type="logic_compare" id="123" inline="true">
+                <field name="OP">GT</field>
+                <value name="A">
+                  <block type="sensor_object" id="124">
+                    <field name="OBJECT">RIGHTFRONT</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="91">
+                    <field name="NUM">50</field>
+                  </block>
+                </value>
               </block>
             </value>
           </block>
